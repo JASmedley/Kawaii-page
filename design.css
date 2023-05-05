@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  background-color: rgb(251, 123, 160);
+}
+.background {
+  background-color: pink;
+  border-radius: 30px;
+  margin: 2%;
+  padding: 20px 0px 0px 0px;
+  opacity: 0.8;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #df96c8,
+    #df96c8 1px,
+    #eee5e5e8 1px,
+    #eee5e5e8
+  );
+}
+#images {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+}
+.image {
+  max-width: 40%;
+  padding: 15px;
+}
+.bonbon {
+  font-family: "Darumadrop One", serif;
+  font-size: 150%;
+  line-height: 200%;
+  color: rgb(54, 51, 52);
+  margin: 10px 40px;
+}
+#listflexbox {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  border-radius: 20px;
+}
+.listandlinks {
+  background: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(133, 53, 90);
+  font-family: "Courier", serif;
+  font-size: 150%;
+  line-height: 100%;
+  color: rgb(253, 150, 196);
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+.unorderedlist {
+  font-family: "courier", serif;
+  font-size: 100%;
+  line-height: 100%;
+  color: black;
+}
+.orderedlist {
+  font-family: "Courier", serif;
+  font-size: 100%;
+  line-height: 100%;
+  color: black;
+}
+h1 {
+  font-family: "Pacifico", serif;
+  font-size: 400%;
+  text-align: center;
+  line-height: 100%;
+
+  text-shadow: 0px 2px 0 rgb(133, 53, 90);
+  width: 35%;
+  color: rgb(133, 53, 90);
+  padding: 10px 10px 30px 10px;
+  margin: auto;
+}
+h2 {
+  background: rgb(253, 150, 196);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(133, 53, 90);
+  font-family: "Darumadrop One", serif;
+  font-size: 250%;
+  text-align: center;
+  line-height: 70%;
+  color: white;
+  padding: 20px 10px;
+  margin: 10px auto;
+  max-width: 40%;
+}
